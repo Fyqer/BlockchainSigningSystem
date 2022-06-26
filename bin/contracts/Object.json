@@ -1,0 +1,326 @@
+{
+    "contractName": "Object",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "getOriginalMessage",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "temp",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "object",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"message\",\"type\":\"string\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"getOriginalMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"temp\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"object\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Danielk/source/repos/FCBlockchain/contracts/Migrations.sol\":\"Object\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Danielk/source/repos/FCBlockchain/contracts/Migrations.sol\":{\"keccak256\":\"0xb9f08b7ff92274140394b1aa296a37f048222a3e3534ecf31b4c8cdc95901989\",\"urls\":[\"bzz-raw://a477a331e39573c97b105f12a530ddace86e5cfeb8df2d512d6d41b8f50141d2\",\"dweb:/ipfs/QmT9B1x3yu11erq8jN3E5WucyzuxijaeyUUVsUFABpKhth\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506040516104c43803806104c483398101604081905261002f91610058565b600061003b82826101b0565b505061026f565b634e487b7160e01b600052604160045260246000fd5b6000602080838503121561006b57600080fd5b82516001600160401b038082111561008257600080fd5b818501915085601f83011261009657600080fd5b8151818111156100a8576100a8610042565b604051601f8201601f19908116603f011681019083821181831017156100d0576100d0610042565b8160405282815288868487010111156100e857600080fd5b600093505b8284101561010a57848401860151818501870152928501926100ed565b8284111561011b5760008684830101525b98975050505050505050565b600181811c9082168061013b57607f821691505b60208210810361015b57634e487b7160e01b600052602260045260246000fd5b50919050565b601f8211156101ab57600081815260208120601f850160051c810160208610156101885750805b601f850160051c820191505b818110156101a757828155600101610194565b5050505b505050565b81516001600160401b038111156101c9576101c9610042565b6101dd816101d78454610127565b84610161565b602080601f83116001811461021257600084156101fa5750858301515b600019600386901b1c1916600185901b1785556101a7565b600085815260208120601f198616915b8281101561024157888601518255948401946001909101908401610222565b508582101561025f5787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b6102468061027e6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80631c948b441461003b5780632812988f14610059575b600080fd5b610043610061565b6040516100509190610181565b60405180910390f35b6100436100f3565b606060008054610070906101d6565b80601f016020809104026020016040519081016040528092919081815260200182805461009c906101d6565b80156100e95780601f106100be576101008083540402835291602001916100e9565b820191906000526020600020905b8154815290600101906020018083116100cc57829003601f168201915b5050505050905090565b60008054610100906101d6565b80601f016020809104026020016040519081016040528092919081815260200182805461012c906101d6565b80156101795780601f1061014e57610100808354040283529160200191610179565b820191906000526020600020905b81548152906001019060200180831161015c57829003601f168201915b505050505081565b600060208083528351808285015260005b818110156101ae57858101830151858201604001528201610192565b818111156101c0576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c908216806101ea57607f821691505b60208210810361020a57634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122065ae0fed9b25f1342ef7677cc62020e1b7f17ad8d3ffecd2acc1a60c0e9da2c864736f6c634300080f0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c80631c948b441461003b5780632812988f14610059575b600080fd5b610043610061565b6040516100509190610181565b60405180910390f35b6100436100f3565b606060008054610070906101d6565b80601f016020809104026020016040519081016040528092919081815260200182805461009c906101d6565b80156100e95780601f106100be576101008083540402835291602001916100e9565b820191906000526020600020905b8154815290600101906020018083116100cc57829003601f168201915b5050505050905090565b60008054610100906101d6565b80601f016020809104026020016040519081016040528092919081815260200182805461012c906101d6565b80156101795780601f1061014e57610100808354040283529160200191610179565b820191906000526020600020905b81548152906001019060200180831161015c57829003601f168201915b505050505081565b600060208083528351808285015260005b818110156101ae57858101830151858201604001528201610192565b818111156101c0576000604083870101525b50601f01601f1916929092016040019392505050565b600181811c908216806101ea57607f821691505b60208210810361020a57634e487b7160e01b600052602260045260246000fd5b5091905056fea264697066735822122065ae0fed9b25f1342ef7677cc62020e1b7f17ad8d3ffecd2acc1a60c0e9da2c864736f6c634300080f0033",
+    "sourceMap": "34:221:0:-:0;;;81:73;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;131:6;:16;140:7;131:6;:16;:::i;:::-;;81:73;34:221;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:1087;226:6;257:2;300;288:9;279:7;275:23;271:32;268:52;;;316:1;313;306:12;268:52;343:16;;-1:-1:-1;;;;;408:14:1;;;405:34;;;435:1;432;425:12;405:34;473:6;462:9;458:22;448:32;;518:7;511:4;507:2;503:13;499:27;489:55;;540:1;537;530:12;489:55;569:2;563:9;591:2;587;584:10;581:36;;;597:18;;:::i;:::-;672:2;666:9;640:2;726:13;;-1:-1:-1;;722:22:1;;;746:2;718:31;714:40;702:53;;;770:18;;;790:22;;;767:46;764:72;;;816:18;;:::i;:::-;856:10;852:2;845:22;891:2;883:6;876:18;931:7;926:2;921;917;913:11;909:20;906:33;903:53;;;952:1;949;942:12;903:53;974:1;965:10;;984:129;998:2;995:1;992:9;984:129;;;1086:10;;;1082:19;;1076:26;1055:14;;;1051:23;;1044:59;1009:10;;;;984:129;;;1131:2;1128:1;1125:9;1122:80;;;1190:1;1185:2;1180;1172:6;1168:15;1164:24;1157:35;1122:80;1221:6;146:1087;-1:-1:-1;;;;;;;;146:1087:1:o;1238:380::-;1317:1;1313:12;;;;1360;;;1381:61;;1435:4;1427:6;1423:17;1413:27;;1381:61;1488:2;1480:6;1477:14;1457:18;1454:38;1451:161;;1534:10;1529:3;1525:20;1522:1;1515:31;1569:4;1566:1;1559:15;1597:4;1594:1;1587:15;1451:161;;1238:380;;;:::o;1749:545::-;1851:2;1846:3;1843:11;1840:448;;;1887:1;1912:5;1908:2;1901:17;1957:4;1953:2;1943:19;2027:2;2015:10;2011:19;2008:1;2004:27;1998:4;1994:38;2063:4;2051:10;2048:20;2045:47;;;-1:-1:-1;2086:4:1;2045:47;2141:2;2136:3;2132:12;2129:1;2125:20;2119:4;2115:31;2105:41;;2196:82;2214:2;2207:5;2204:13;2196:82;;;2259:17;;;2240:1;2229:13;2196:82;;;2200:3;;;1840:448;1749:545;;;:::o;2470:1352::-;2590:10;;-1:-1:-1;;;;;2612:30:1;;2609:56;;;2645:18;;:::i;:::-;2674:97;2764:6;2724:38;2756:4;2750:11;2724:38;:::i;:::-;2718:4;2674:97;:::i;:::-;2826:4;;2890:2;2879:14;;2907:1;2902:663;;;;3609:1;3626:6;3623:89;;;-1:-1:-1;3678:19:1;;;3672:26;3623:89;-1:-1:-1;;2427:1:1;2423:11;;;2419:24;2415:29;2405:40;2451:1;2447:11;;;2402:57;3725:81;;2872:944;;2902:663;1696:1;1689:14;;;1733:4;1720:18;;-1:-1:-1;;2938:20:1;;;3056:236;3070:7;3067:1;3064:14;3056:236;;;3159:19;;;3153:26;3138:42;;3251:27;;;;3219:1;3207:14;;;;3086:19;;3056:236;;;3060:3;3320:6;3311:7;3308:19;3305:201;;;3381:19;;;3375:26;-1:-1:-1;;3464:1:1;3460:14;;;3476:3;3456:24;3452:37;3448:42;3433:58;3418:74;;3305:201;-1:-1:-1;;;;;3552:1:1;3536:14;;;3532:22;3519:36;;-1:-1:-1;2470:1352:1:o;:::-;34:221:0;;;;;;",
+    "deployedSourceMap": "34:221:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;160:93;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;55:20;;;:::i;160:93::-;210:18;242:6;235:13;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;160:93;:::o;55:20::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;14:597:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o;616:380::-;695:1;691:12;;;;738;;;759:61;;813:4;805:6;801:17;791:27;;759:61;866:2;858:6;855:14;835:18;832:38;829:161;;912:10;907:3;903:20;900:1;893:31;947:4;944:1;937:15;975:4;972:1;965:15;829:161;;616:380;;;:::o",
+    "sourcePath": "c:/Users/Danielk/source/repos/FCBlockchain/contracts/Migrations.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.15+commit.e14f2714"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Danielk/source/repos/FCBlockchain/contracts/Migrations.sol",
+        "exportedSymbols": {
+            "Object": [
+                22
+            ]
+        },
+        "id": 23,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".21",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:32:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Object",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 22,
+                "linearizedBaseContracts": [
+                    22
+                ],
+                "name": "Object",
+                "nameLocation": "43:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "2812988f",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "object",
+                        "nameLocation": "69:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 22,
+                        "src": "55:20:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "55:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 12,
+                            "nodeType": "Block",
+                            "src": "123:31:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 10,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 8,
+                                            "name": "object",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "131:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 9,
+                                            "name": "message",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 5,
+                                            "src": "140:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string memory"
+                                            }
+                                        },
+                                        "src": "131:16:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 11,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "131:16:0"
+                                }
+                            ]
+                        },
+                        "id": 13,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 6,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 5,
+                                    "mutability": "mutable",
+                                    "name": "message",
+                                    "nameLocation": "107:7:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 13,
+                                    "src": "93:21:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 4,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "93:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "92:23:0"
+                        },
+                        "returnParameters": {
+                            "id": 7,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "123:0:0"
+                        },
+                        "scope": 22,
+                        "src": "81:73:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 20,
+                            "nodeType": "Block",
+                            "src": "229:24:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 18,
+                                        "name": "object",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 3,
+                                        "src": "242:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 17,
+                                    "id": 19,
+                                    "nodeType": "Return",
+                                    "src": "235:13:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "1c948b44",
+                        "id": 21,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getOriginalMessage",
+                        "nameLocation": "169:18:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 14,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "187:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 17,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 16,
+                                    "mutability": "mutable",
+                                    "name": "temp",
+                                    "nameLocation": "224:4:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 21,
+                                    "src": "210:18:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 15,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "210:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "209:20:0"
+                        },
+                        "scope": 22,
+                        "src": "160:93:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 23,
+                "src": "34:221:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:256:0"
+    },
+    "functionHashes": {
+        "getOriginalMessage()": "1c948b44",
+        "object()": "2812988f"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "116400",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getOriginalMessage()": "infinite",
+            "object()": "infinite"
+        }
+    }
+}

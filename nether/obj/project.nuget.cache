@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DoxqvKvF3FVUyQl7HCsKyEYm9mDj6FIBY1vbtnE+fngdNqif75GJyv6C+M+sR7Jla/a0MUmTsiMST0EeF9hWKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Danielk\\source\\repos\\FCBlockchain\\nether\\nether.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danielk\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Danielk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Danielk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
